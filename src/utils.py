@@ -177,5 +177,8 @@ def apply_custom_css():
     }
     .proficiency-badge { background-color: #e8f0fe; color: #0033A0; }
     .coverage-badge    { background-color: #fce8e8; color: #E31837; }
+    section[data-testid="stSidebar"] * {
+    opacity: 1 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
