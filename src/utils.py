@@ -150,7 +150,7 @@ def apply_custom_css():
         --text-muted:  #666666;
         --border-color:#E0E0E0;
     }
-    html, body, [class*="css"] { font-family: 'Inter', sans-serif; color: var(--text-color); background-color: var(--bg-color); }
+    html, body{ font-family: 'Inter', sans-serif; color: var(--text-color); background-color: var(--bg-color); }
     .stApp { background-color: var(--bg-color); background-image: none; }
     .main-header {
         color: var(--tdot-blue); font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;
