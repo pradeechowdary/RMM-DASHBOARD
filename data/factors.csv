@@ -1,0 +1,37 @@
+factor_id,area,factor_name,description,weight,target_level,owner_group,evidence_required
+PM_01,Project Management,Project Solicitation & Prioritization,How research needs are converted into candidate projects and prioritized (Q7-Q8),1.2,3,Program Office,0
+PM_02,Project Management,Scope Definition & Change Control,"How scope is defined to stabilise expectations and how changes are controlled (Q9, Q15)",1.0,4,Technical Leads,0
+PM_03,Project Management,Roles & Responsibilities,How roles and responsibilities are established and enforced across project teams (Q10),1.0,4,Program Office,0
+PM_04,Project Management,Schedule & Milestone Planning,How schedules and milestones are planned and updated during execution (Q11),1.0,3,Program Office,1
+PM_05,Project Management,Progress Reporting,How progress reporting is structured during project execution (Q12),1.0,3,Program Office,1
+PM_06,Project Management,Technical Review & Approval,How technical reviews and approvals are handled for deliverables (Q13),1.0,3,Program Office,1
+PM_07,Project Management,Issue & Risk Management,"How delays, missing data, contractor capacity issues, and scope drift are handled (Q14)",1.0,3,Program Office,0
+PM_08,Project Management,Records Management & Archival,How project records are organised for future retrieval (Q16),1.0,4,Program Office,1
+PM_09,Project Management,Vendor & Contractor Performance,How vendor/contractor performance is managed and quality expectations enforced (Q17-Q18),1.0,3,Program Office,0
+PM_10,Project Management,Project Closure & Lessons Learned,How project closure is conducted and lessons learned are captured and reused (Q19-Q20),1.0,3,Program Office,1
+PM_11,Project Management,Organisational Consistency,How consistent project management practices are across organisational groups (Q21),1.2,4,Admin,1
+EIM_01,Evaluation & Impact Measurement,Outcome Definition,How expected results are defined before project work begins (Q22),1.0,3,Program Office,1
+EIM_02,Evaluation & Impact Measurement,Research Usefulness Evaluation,How the usefulness of research is judged after project completion (Q23),1.0,3,Program Office,1
+EIM_03,Evaluation & Impact Measurement,Technology Transfer & Usability,How research results are translated into outputs operational staff can use (Q24),1.2,3,Technical Leads,1
+EIM_04,Evaluation & Impact Measurement,Implementation Tracking,How implementation of research outcomes is tracked post-closure (Q25),1.0,3,Finance,1
+EIM_05,Evaluation & Impact Measurement,Barrier Analysis,How causes of non-implementation or non-adoption are identified and addressed (Q26),1.0,3,Program Office,1
+EIM_06,Evaluation & Impact Measurement,Reporting Quality & Standards,How consistent project reporting quality is across projects (Q27),1.0,3,Program Office,1
+EIM_07,Evaluation & Impact Measurement,Internal Communication of Findings,How evaluation findings are communicated internally after project completion (Q28),1.0,4,Program Office,1
+EIM_08,Evaluation & Impact Measurement,Stakeholder Involvement in Evaluation,How stakeholders are involved in judging project outcomes (Q29),1.0,3,Program Office,1
+EIM_09,Evaluation & Impact Measurement,Post-Delivery Feedback Collection,How feedback is collected after deliverables are used or tested in real settings (Q30),1.0,4,Technical Leads,0
+EIM_10,Evaluation & Impact Measurement,Strategic Alignment,How evaluation results connect to agency priorities or strategic objectives (Q31),1.0,4,Finance,1
+EIM_11,Evaluation & Impact Measurement,Evaluation Records Management,How evaluation records are organised for retrieval and reuse (Q32),1.0,3,Technical Leads,1
+EIM_12,Evaluation & Impact Measurement,Long-Term Impact Assessment,How long-term impact of research projects is assessed (Q33),0.8,3,Technical Leads,1
+EIM_13,Evaluation & Impact Measurement,Evaluation Consistency & Improvement,How consistent evaluation practices are and how they improve over time (Q34-Q35),1.0,3,Finance,0
+INV_01,Invoicing Process,Invoice Submission Requirements,How invoice submission requirements are communicated to contractors (Q36),1.0,3,Technical Leads,1
+INV_02,Invoicing Process,Invoice Package Consistency,How consistent invoice packages are when received for review (Q37),1.0,3,Technical Leads,1
+INV_03,Invoicing Process,Invoice Review Process,How invoices are reviewed after submission with defined checks (Q38),1.0,3,Finance,1
+INV_04,Invoicing Process,Approval Responsibilities,How approval responsibilities are defined and managed during processing (Q39),1.2,3,Technical Leads,1
+INV_05,Invoicing Process,Processing Timeliness,How predictable invoice processing time is from submission to final approval (Q40),1.0,3,Admin,1
+INV_06,Invoicing Process,Error Correction & Issue Handling,How incomplete or incorrect invoices are managed once problems are identified (Q41),1.0,3,Technical Leads,1
+INV_07,Invoicing Process,Communication During Review,How communication is maintained with submitters during invoice review (Q42),1.2,3,Finance,1
+INV_08,Invoicing Process,Invoicing Records Management,How invoicing records are organised for audits or issue resolution (Q43),1.0,4,Program Office,1
+INV_09,Invoicing Process,Recurring Issue Identification,How recurring invoicing issues are identified and addressed across projects (Q44),1.0,3,Finance,1
+INV_10,Invoicing Process,Administrative-Technical Coordination,How coordination is managed between administrative and technical reviewers (Q45),1.0,3,Technical Leads,1
+INV_11,Invoicing Process,Requirements Communication & Consistency,How changes to invoicing requirements are communicated across groups (Q46-Q47),1.0,3,Program Office,1
+INV_12,Invoicing Process,Invoicing Process Improvement,How the invoicing process improves over time using performance data (Q48),1.0,4,Program Office,1

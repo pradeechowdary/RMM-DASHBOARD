@@ -1,0 +1,553 @@
+cycle_id,respondent_id,org_group,factor_id,level,proficiency_level,coverage_level,confidence,free_text,evidence_link,timestamp
+baseline,resp_0_Pro,Program Office,PM_01,3,3,4,4,,,2024-02-04
+baseline,resp_1_Fin,Finance,PM_01,2,3,2,3,Notes on Project Solicitation & Prioritization,doc_PM_01_1.pdf,2024-02-09
+baseline,resp_2_Fie,Field Teams,PM_01,2,3,2,5,,,2024-01-26
+baseline,resp_3_Tec,Technical Leads,PM_01,3,3,3,4,,doc_PM_01_3.pdf,2024-02-13
+baseline,resp_4_Tec,Technical Leads,PM_01,2,2,4,4,,,2024-02-08
+baseline,resp_0_Adm,Admin,PM_02,4,4,5,5,,,2024-02-03
+baseline,resp_1_Fin,Finance,PM_02,4,4,5,3,Notes on Scope Definition & Change Control,doc_PM_02_1.pdf,2024-01-23
+baseline,resp_2_Tec,Technical Leads,PM_02,4,4,5,5,,doc_PM_02_2.pdf,2024-01-24
+baseline,resp_3_Adm,Admin,PM_02,4,4,4,5,,doc_PM_02_3.pdf,2024-01-25
+baseline,resp_4_Pro,Program Office,PM_02,4,4,5,3,Notes on Scope Definition & Change Control,,2024-01-27
+baseline,resp_5_Pro,Program Office,PM_02,4,5,4,4,,,2024-01-22
+baseline,resp_6_Tec,Technical Leads,PM_02,4,4,4,5,Notes on Scope Definition & Change Control,doc_PM_02_6.pdf,2024-01-15
+baseline,resp_0_Pro,Program Office,PM_03,2,4,2,4,,doc_PM_03_0.pdf,2024-01-22
+baseline,resp_1_Adm,Admin,PM_03,1,3,1,3,Notes on Roles & Responsibilities,doc_PM_03_1.pdf,2024-01-20
+baseline,resp_2_Pro,Program Office,PM_03,2,3,2,4,,doc_PM_03_2.pdf,2024-01-31
+baseline,resp_3_Fin,Finance,PM_03,1,2,1,4,,,2024-01-29
+baseline,resp_0_Adm,Admin,PM_04,3,3,5,5,,,2024-01-17
+baseline,resp_1_Pro,Program Office,PM_04,2,2,2,4,,doc_PM_04_1.pdf,2024-01-24
+baseline,resp_2_Tec,Technical Leads,PM_04,2,2,3,5,Notes on Schedule & Milestone Planning,,2024-02-10
+baseline,resp_3_Tec,Technical Leads,PM_04,3,3,4,4,,doc_PM_04_3.pdf,2024-02-13
+baseline,resp_0_Fin,Finance,PM_05,3,3,3,4,,,2024-01-22
+baseline,resp_1_Adm,Admin,PM_05,3,3,3,4,,,2024-01-30
+baseline,resp_2_Fin,Finance,PM_05,1,3,1,4,,,2024-01-21
+baseline,resp_3_Pro,Program Office,PM_05,2,2,2,4,,,2024-01-27
+baseline,resp_0_Pro,Program Office,PM_06,3,3,3,4,,,2024-02-01
+baseline,resp_1_Fin,Finance,PM_06,2,2,4,4,,doc_PM_06_1.pdf,2024-02-09
+baseline,resp_2_Tec,Technical Leads,PM_06,2,2,3,4,,doc_PM_06_2.pdf,2024-01-20
+baseline,resp_3_Fin,Finance,PM_06,2,2,2,3,,,2024-02-12
+baseline,resp_4_Adm,Admin,PM_06,2,2,3,4,Notes on Technical Review & Approval,,2024-02-08
+baseline,resp_5_Fin,Finance,PM_06,2,2,2,4,,,2024-02-02
+baseline,resp_6_Fie,Field Teams,PM_06,3,3,3,5,,,2024-01-18
+baseline,resp_0_Adm,Admin,PM_07,3,3,4,5,Notes on Issue & Risk Management,,2024-02-07
+baseline,resp_1_Fin,Finance,PM_07,2,3,2,4,,doc_PM_07_1.pdf,2024-01-28
+baseline,resp_2_Pro,Program Office,PM_07,2,2,3,4,,doc_PM_07_2.pdf,2024-02-12
+baseline,resp_3_Fin,Finance,PM_07,3,3,4,5,,doc_PM_07_3.pdf,2024-01-26
+baseline,resp_0_Adm,Admin,PM_08,1,3,1,4,Notes on Records Management & Archival,,2024-01-20
+baseline,resp_1_Adm,Admin,PM_08,1,3,1,4,,,2024-02-07
+baseline,resp_2_Adm,Admin,PM_08,1,4,1,4,,doc_PM_08_2.pdf,2024-02-10
+baseline,resp_3_Fin,Finance,PM_08,1,4,1,4,,,2024-01-29
+baseline,resp_0_Fie,Field Teams,PM_09,2,2,2,3,,,2024-01-28
+baseline,resp_1_Fin,Finance,PM_09,1,2,1,4,,,2024-01-22
+baseline,resp_2_Fin,Finance,PM_09,1,1,1,5,Notes on Vendor & Contractor Performance,,2024-01-24
+baseline,resp_3_Fie,Field Teams,PM_09,2,2,2,4,,,2024-02-06
+baseline,resp_0_Fin,Finance,PM_10,1,3,1,4,Notes on Project Closure & Lessons Learned,doc_PM_10_0.pdf,2024-02-08
+baseline,resp_1_Pro,Program Office,PM_10,2,2,2,3,Notes on Project Closure & Lessons Learned,,2024-02-02
+baseline,resp_2_Fin,Finance,PM_10,2,2,4,4,Notes on Project Closure & Lessons Learned,doc_PM_10_2.pdf,2024-01-15
+baseline,resp_3_Adm,Admin,PM_10,3,3,3,3,Notes on Project Closure & Lessons Learned,doc_PM_10_3.pdf,2024-02-01
+baseline,resp_4_Tec,Technical Leads,PM_10,3,3,3,4,,doc_PM_10_4.pdf,2024-02-07
+baseline,resp_5_Fin,Finance,PM_10,3,3,3,4,Notes on Project Closure & Lessons Learned,,2024-01-16
+baseline,resp_6_Tec,Technical Leads,PM_10,3,3,3,4,,,2024-01-22
+baseline,resp_0_Fie,Field Teams,PM_11,1,1,3,3,,,2024-01-20
+baseline,resp_1_Adm,Admin,PM_11,1,1,3,5,,,2024-02-08
+baseline,resp_2_Adm,Admin,PM_11,2,2,3,4,Notes on Organisational Consistency,doc_PM_11_2.pdf,2024-01-27
+baseline,resp_0_Fie,Field Teams,EIM_01,3,4,3,4,Notes on Outcome Definition,,2024-02-07
+baseline,resp_1_Fie,Field Teams,EIM_01,3,4,3,5,,,2024-02-13
+baseline,resp_2_Tec,Technical Leads,EIM_01,3,3,3,4,,,2024-01-27
+baseline,resp_3_Adm,Admin,EIM_01,3,4,3,4,,doc_EIM_01_3.pdf,2024-02-06
+baseline,resp_4_Fin,Finance,EIM_01,3,3,4,3,,doc_EIM_01_4.pdf,2024-02-01
+baseline,resp_0_Fie,Field Teams,EIM_02,1,1,4,4,,,2024-01-21
+baseline,resp_1_Adm,Admin,EIM_02,1,1,5,4,Notes on Research Usefulness Evaluation,,2024-02-04
+baseline,resp_2_Tec,Technical Leads,EIM_02,2,2,4,5,,,2024-01-17
+baseline,resp_3_Fin,Finance,EIM_02,1,1,5,4,,,2024-02-04
+baseline,resp_0_Tec,Technical Leads,EIM_03,1,2,1,4,,,2024-01-27
+baseline,resp_1_Pro,Program Office,EIM_03,1,2,1,4,,doc_EIM_03_1.pdf,2024-01-20
+baseline,resp_2_Fin,Finance,EIM_03,1,1,2,5,,,2024-01-29
+baseline,resp_3_Adm,Admin,EIM_03,1,1,3,4,,doc_EIM_03_3.pdf,2024-01-15
+baseline,resp_0_Fin,Finance,EIM_04,1,1,3,4,Notes on Implementation Tracking,doc_EIM_04_0.pdf,2024-02-03
+baseline,resp_1_Tec,Technical Leads,EIM_04,2,2,3,4,,doc_EIM_04_1.pdf,2024-02-11
+baseline,resp_2_Pro,Program Office,EIM_04,1,1,2,4,,doc_EIM_04_2.pdf,2024-01-21
+baseline,resp_3_Tec,Technical Leads,EIM_04,1,1,3,4,Notes on Implementation Tracking,doc_EIM_04_3.pdf,2024-01-28
+baseline,resp_0_Pro,Program Office,EIM_05,2,2,3,4,Notes on Barrier Analysis,doc_EIM_05_0.pdf,2024-01-15
+baseline,resp_1_Adm,Admin,EIM_05,2,2,4,4,Notes on Barrier Analysis,,2024-01-26
+baseline,resp_2_Pro,Program Office,EIM_05,2,2,4,5,,,2024-01-18
+baseline,resp_3_Tec,Technical Leads,EIM_05,2,2,3,4,Notes on Barrier Analysis,,2024-02-10
+baseline,resp_4_Adm,Admin,EIM_05,1,1,4,4,,,2024-01-15
+baseline,resp_5_Adm,Admin,EIM_05,2,2,3,5,Notes on Barrier Analysis,doc_EIM_05_5.pdf,2024-01-21
+baseline,resp_0_Adm,Admin,EIM_06,1,1,2,5,,,2024-01-16
+baseline,resp_1_Pro,Program Office,EIM_06,1,1,1,3,,doc_EIM_06_1.pdf,2024-02-12
+baseline,resp_2_Pro,Program Office,EIM_06,1,1,1,3,,,2024-02-12
+baseline,resp_3_Fie,Field Teams,EIM_06,1,1,2,4,Notes on Reporting Quality & Standards,,2024-01-25
+baseline,resp_0_Fie,Field Teams,EIM_07,4,4,4,4,,,2024-02-03
+baseline,resp_1_Adm,Admin,EIM_07,3,4,3,3,,,2024-01-25
+baseline,resp_2_Fin,Finance,EIM_07,3,4,3,5,,,2024-02-06
+baseline,resp_3_Tec,Technical Leads,EIM_07,3,3,5,4,,doc_EIM_07_3.pdf,2024-01-25
+baseline,resp_4_Fie,Field Teams,EIM_07,3,3,3,4,,,2024-01-24
+baseline,resp_0_Fin,Finance,EIM_08,1,5,1,4,,,2024-02-07
+baseline,resp_1_Fin,Finance,EIM_08,2,4,2,3,Notes on Stakeholder Involvement in Evaluation,doc_EIM_08_1.pdf,2024-01-21
+baseline,resp_2_Adm,Admin,EIM_08,1,4,1,5,,doc_EIM_08_2.pdf,2024-01-25
+baseline,resp_0_Pro,Program Office,EIM_09,2,2,2,3,,doc_EIM_09_0.pdf,2024-02-07
+baseline,resp_1_Fin,Finance,EIM_09,1,2,1,4,,doc_EIM_09_1.pdf,2024-02-11
+baseline,resp_2_Fie,Field Teams,EIM_09,1,2,1,5,Notes on Post-Delivery Feedback Collection,doc_EIM_09_2.pdf,2024-01-26
+baseline,resp_3_Tec,Technical Leads,EIM_09,1,2,1,5,Notes on Post-Delivery Feedback Collection,,2024-02-01
+baseline,resp_4_Fie,Field Teams,EIM_09,1,1,1,4,,doc_EIM_09_4.pdf,2024-01-30
+baseline,resp_5_Fin,Finance,EIM_09,2,2,2,5,Notes on Post-Delivery Feedback Collection,,2024-02-05
+baseline,resp_6_Pro,Program Office,EIM_09,1,1,2,5,,doc_EIM_09_6.pdf,2024-02-11
+baseline,resp_0_Fie,Field Teams,EIM_10,1,4,1,5,,doc_EIM_10_0.pdf,2024-01-16
+baseline,resp_1_Fin,Finance,EIM_10,2,4,2,5,,,2024-01-22
+baseline,resp_2_Fie,Field Teams,EIM_10,1,4,1,5,,,2024-01-26
+baseline,resp_0_Fin,Finance,EIM_11,2,2,2,5,Notes on Evaluation Records Management,doc_EIM_11_0.pdf,2024-02-01
+baseline,resp_1_Pro,Program Office,EIM_11,2,3,2,4,Notes on Evaluation Records Management,,2024-02-10
+baseline,resp_2_Pro,Program Office,EIM_11,3,3,3,4,,,2024-01-20
+baseline,resp_0_Adm,Admin,EIM_12,3,4,3,5,,doc_EIM_12_0.pdf,2024-02-07
+baseline,resp_1_Pro,Program Office,EIM_12,1,4,1,4,,doc_EIM_12_1.pdf,2024-02-04
+baseline,resp_2_Fin,Finance,EIM_12,1,5,1,4,Notes on Long-Term Impact Assessment,,2024-02-02
+baseline,resp_3_Tec,Technical Leads,EIM_12,2,3,2,4,,,2024-01-22
+baseline,resp_0_Adm,Admin,EIM_13,1,1,3,4,,,2024-02-04
+baseline,resp_1_Tec,Technical Leads,EIM_13,2,2,2,4,,doc_EIM_13_1.pdf,2024-01-26
+baseline,resp_2_Fin,Finance,EIM_13,2,2,3,4,Notes on Evaluation Consistency & Improvement,,2024-01-22
+baseline,resp_3_Pro,Program Office,EIM_13,2,2,2,4,,,2024-01-18
+baseline,resp_4_Fin,Finance,EIM_13,1,1,3,4,,,2024-01-29
+baseline,resp_5_Fie,Field Teams,EIM_13,2,2,2,4,,,2024-01-30
+baseline,resp_6_Fie,Field Teams,EIM_13,2,2,2,3,Notes on Evaluation Consistency & Improvement,doc_EIM_13_6.pdf,2024-01-26
+baseline,resp_0_Pro,Program Office,INV_01,2,2,3,5,,,2024-01-24
+baseline,resp_1_Fie,Field Teams,INV_01,3,3,4,4,Notes on Invoice Submission Requirements,,2024-01-30
+baseline,resp_2_Pro,Program Office,INV_01,3,3,3,4,,,2024-01-31
+baseline,resp_3_Adm,Admin,INV_01,2,2,3,4,,doc_INV_01_3.pdf,2024-01-17
+baseline,resp_4_Pro,Program Office,INV_01,2,2,4,3,,doc_INV_01_4.pdf,2024-01-15
+baseline,resp_0_Fin,Finance,INV_02,3,3,5,3,,doc_INV_02_0.pdf,2024-01-28
+baseline,resp_1_Fie,Field Teams,INV_02,2,2,4,3,,doc_INV_02_1.pdf,2024-01-22
+baseline,resp_2_Adm,Admin,INV_02,1,1,5,5,,doc_INV_02_2.pdf,2024-01-28
+baseline,resp_3_Tec,Technical Leads,INV_02,1,1,4,3,Notes on Invoice Package Consistency,doc_INV_02_3.pdf,2024-01-22
+baseline,resp_4_Pro,Program Office,INV_02,2,2,4,3,,,2024-02-13
+baseline,resp_0_Adm,Admin,INV_03,1,4,1,4,Notes on Invoice Review Process,,2024-02-03
+baseline,resp_1_Pro,Program Office,INV_03,1,5,1,5,Notes on Invoice Review Process,,2024-01-31
+baseline,resp_2_Fin,Finance,INV_03,2,4,2,5,,doc_INV_03_2.pdf,2024-02-12
+baseline,resp_3_Adm,Admin,INV_03,2,5,2,5,,,2024-01-31
+baseline,resp_4_Fie,Field Teams,INV_03,1,4,1,5,Notes on Invoice Review Process,doc_INV_03_4.pdf,2024-01-29
+baseline,resp_5_Adm,Admin,INV_03,1,5,1,3,Notes on Invoice Review Process,doc_INV_03_5.pdf,2024-01-22
+baseline,resp_6_Pro,Program Office,INV_03,1,4,1,3,,doc_INV_03_6.pdf,2024-01-20
+baseline,resp_0_Fin,Finance,INV_04,1,3,1,4,,,2024-02-01
+baseline,resp_1_Adm,Admin,INV_04,1,4,1,5,,,2024-01-26
+baseline,resp_2_Adm,Admin,INV_04,2,3,2,3,,doc_INV_04_2.pdf,2024-02-13
+baseline,resp_3_Adm,Admin,INV_04,1,5,1,5,,,2024-01-25
+baseline,resp_4_Pro,Program Office,INV_04,1,3,1,5,,,2024-02-11
+baseline,resp_0_Adm,Admin,INV_05,2,2,2,5,Notes on Processing Timeliness,doc_INV_05_0.pdf,2024-01-31
+baseline,resp_1_Fin,Finance,INV_05,2,2,2,4,,doc_INV_05_1.pdf,2024-02-02
+baseline,resp_2_Pro,Program Office,INV_05,3,3,3,3,,,2024-01-27
+baseline,resp_3_Adm,Admin,INV_05,3,3,3,3,,,2024-01-25
+baseline,resp_4_Tec,Technical Leads,INV_05,2,3,2,5,,,2024-02-06
+baseline,resp_0_Adm,Admin,INV_06,2,2,3,5,Notes on Error Correction & Issue Handling,doc_INV_06_0.pdf,2024-02-06
+baseline,resp_1_Fin,Finance,INV_06,3,3,3,4,Notes on Error Correction & Issue Handling,,2024-01-22
+baseline,resp_2_Fin,Finance,INV_06,2,2,3,5,,,2024-02-01
+baseline,resp_3_Pro,Program Office,INV_06,2,2,3,5,Notes on Error Correction & Issue Handling,,2024-02-12
+baseline,resp_4_Fie,Field Teams,INV_06,3,3,3,4,Notes on Error Correction & Issue Handling,doc_INV_06_4.pdf,2024-02-08
+baseline,resp_0_Adm,Admin,INV_07,2,2,2,3,,doc_INV_07_0.pdf,2024-01-23
+baseline,resp_1_Fie,Field Teams,INV_07,2,2,2,5,,doc_INV_07_1.pdf,2024-01-24
+baseline,resp_2_Adm,Admin,INV_07,2,2,3,4,,,2024-01-31
+baseline,resp_3_Pro,Program Office,INV_07,1,1,1,3,Notes on Communication During Review,,2024-02-08
+baseline,resp_4_Adm,Admin,INV_07,1,1,2,3,Notes on Communication During Review,,2024-01-21
+baseline,resp_5_Pro,Program Office,INV_07,1,1,3,3,,doc_INV_07_5.pdf,2024-01-15
+baseline,resp_0_Fie,Field Teams,INV_08,1,3,1,4,Notes on Invoicing Records Management,,2024-01-23
+baseline,resp_1_Fie,Field Teams,INV_08,1,3,1,5,Notes on Invoicing Records Management,doc_INV_08_1.pdf,2024-02-13
+baseline,resp_2_Fie,Field Teams,INV_08,2,3,2,4,,,2024-02-01
+baseline,resp_3_Pro,Program Office,INV_08,1,4,1,4,Notes on Invoicing Records Management,,2024-02-08
+baseline,resp_4_Fie,Field Teams,INV_08,2,4,2,5,,doc_INV_08_4.pdf,2024-01-17
+baseline,resp_5_Tec,Technical Leads,INV_08,1,4,1,5,,,2024-02-03
+baseline,resp_6_Adm,Admin,INV_08,1,3,1,4,,doc_INV_08_6.pdf,2024-01-27
+baseline,resp_0_Fin,Finance,INV_09,2,2,2,3,,doc_INV_09_0.pdf,2024-01-26
+baseline,resp_1_Tec,Technical Leads,INV_09,3,3,3,4,,doc_INV_09_1.pdf,2024-01-18
+baseline,resp_2_Adm,Admin,INV_09,2,2,3,5,,,2024-01-16
+baseline,resp_3_Adm,Admin,INV_09,3,4,3,3,,,2024-01-15
+baseline,resp_0_Adm,Admin,INV_10,1,1,5,3,,doc_INV_10_0.pdf,2024-01-29
+baseline,resp_1_Adm,Admin,INV_10,1,1,3,4,,doc_INV_10_1.pdf,2024-01-17
+baseline,resp_2_Fie,Field Teams,INV_10,1,1,3,5,,doc_INV_10_2.pdf,2024-01-25
+baseline,resp_3_Fie,Field Teams,INV_10,1,1,5,5,Notes on Administrative-Technical Coordination,,2024-01-28
+baseline,resp_0_Tec,Technical Leads,INV_11,1,1,3,5,Notes on Requirements Communication & Consistency,doc_INV_11_0.pdf,2024-01-22
+baseline,resp_1_Fie,Field Teams,INV_11,1,1,3,4,,,2024-01-30
+baseline,resp_2_Tec,Technical Leads,INV_11,1,1,2,5,Notes on Requirements Communication & Consistency,,2024-02-02
+baseline,resp_3_Tec,Technical Leads,INV_11,1,1,3,4,,doc_INV_11_3.pdf,2024-01-16
+baseline,resp_0_Fin,Finance,INV_12,3,3,4,5,,doc_INV_12_0.pdf,2024-02-08
+baseline,resp_1_Pro,Program Office,INV_12,2,2,4,4,Notes on Invoicing Process Improvement,,2024-01-15
+baseline,resp_2_Fin,Finance,INV_12,3,3,4,4,Notes on Invoicing Process Improvement,,2024-01-16
+baseline,resp_3_Pro,Program Office,INV_12,2,2,3,4,,,2024-01-28
+cycle_1,resp_0_Pro,Program Office,PM_01,2,2,2,3,,,2024-08-09
+cycle_1,resp_1_Pro,Program Office,PM_01,1,2,1,3,,,2024-08-03
+cycle_1,resp_2_Fie,Field Teams,PM_01,2,2,2,4,Notes on Project Solicitation & Prioritization,doc_PM_01_2.pdf,2024-08-08
+cycle_1,resp_3_Fin,Finance,PM_01,1,1,2,3,,,2024-07-30
+cycle_1,resp_4_Adm,Admin,PM_01,2,2,2,3,Notes on Project Solicitation & Prioritization,doc_PM_01_4.pdf,2024-07-15
+cycle_1,resp_5_Fie,Field Teams,PM_01,1,1,2,3,,doc_PM_01_5.pdf,2024-07-26
+cycle_1,resp_0_Fie,Field Teams,PM_02,3,3,4,4,,doc_PM_02_0.pdf,2024-07-21
+cycle_1,resp_1_Tec,Technical Leads,PM_02,3,3,5,5,,,2024-07-25
+cycle_1,resp_2_Fin,Finance,PM_02,3,3,3,4,,,2024-07-19
+cycle_1,resp_3_Tec,Technical Leads,PM_02,3,3,3,5,,,2024-07-29
+cycle_1,resp_4_Tec,Technical Leads,PM_02,2,3,2,5,,,2024-08-02
+cycle_1,resp_5_Fie,Field Teams,PM_02,2,3,2,4,Notes on Scope Definition & Change Control,,2024-08-04
+cycle_1,resp_6_Adm,Admin,PM_02,3,3,3,5,Notes on Scope Definition & Change Control,,2024-07-26
+cycle_1,resp_0_Fin,Finance,PM_03,3,3,3,4,Notes on Roles & Responsibilities,doc_PM_03_0.pdf,2024-07-19
+cycle_1,resp_1_Tec,Technical Leads,PM_03,2,2,3,4,,doc_PM_03_1.pdf,2024-08-11
+cycle_1,resp_2_Adm,Admin,PM_03,2,4,2,5,,doc_PM_03_2.pdf,2024-07-18
+cycle_1,resp_3_Fie,Field Teams,PM_03,2,2,3,4,,doc_PM_03_3.pdf,2024-08-09
+cycle_1,resp_4_Pro,Program Office,PM_03,2,3,2,3,,doc_PM_03_4.pdf,2024-07-23
+cycle_1,resp_5_Fie,Field Teams,PM_03,3,3,3,4,Notes on Roles & Responsibilities,,2024-07-29
+cycle_1,resp_0_Fin,Finance,PM_04,2,2,3,5,,doc_PM_04_0.pdf,2024-07-25
+cycle_1,resp_1_Adm,Admin,PM_04,3,3,3,4,Notes on Schedule & Milestone Planning,doc_PM_04_1.pdf,2024-07-14
+cycle_1,resp_2_Adm,Admin,PM_04,3,3,3,4,Notes on Schedule & Milestone Planning,doc_PM_04_2.pdf,2024-07-26
+cycle_1,resp_3_Pro,Program Office,PM_04,2,3,2,5,,,2024-07-18
+cycle_1,resp_4_Fie,Field Teams,PM_04,3,3,3,5,,doc_PM_04_4.pdf,2024-08-05
+cycle_1,resp_5_Pro,Program Office,PM_04,3,3,3,5,Notes on Schedule & Milestone Planning,,2024-08-10
+cycle_1,resp_6_Adm,Admin,PM_04,1,2,1,5,,,2024-07-31
+cycle_1,resp_0_Pro,Program Office,PM_05,3,4,3,3,,,2024-08-11
+cycle_1,resp_1_Tec,Technical Leads,PM_05,2,3,2,4,,doc_PM_05_1.pdf,2024-07-13
+cycle_1,resp_2_Pro,Program Office,PM_05,3,4,3,3,,doc_PM_05_2.pdf,2024-07-22
+cycle_1,resp_3_Fin,Finance,PM_05,4,4,4,3,,,2024-07-25
+cycle_1,resp_4_Pro,Program Office,PM_05,3,4,3,5,,,2024-07-25
+cycle_1,resp_5_Adm,Admin,PM_05,4,4,5,4,,doc_PM_05_5.pdf,2024-07-20
+cycle_1,resp_6_Tec,Technical Leads,PM_05,4,4,4,4,,,2024-07-16
+cycle_1,resp_0_Fin,Finance,PM_06,2,4,2,4,,doc_PM_06_0.pdf,2024-07-25
+cycle_1,resp_1_Adm,Admin,PM_06,2,4,2,3,,,2024-07-20
+cycle_1,resp_2_Pro,Program Office,PM_06,1,4,1,4,,,2024-08-11
+cycle_1,resp_0_Pro,Program Office,PM_07,3,3,5,3,,doc_PM_07_0.pdf,2024-08-04
+cycle_1,resp_1_Pro,Program Office,PM_07,4,4,5,4,,,2024-07-25
+cycle_1,resp_2_Adm,Admin,PM_07,2,2,5,5,,,2024-07-15
+cycle_1,resp_0_Pro,Program Office,PM_08,1,1,2,3,,doc_PM_08_0.pdf,2024-07-27
+cycle_1,resp_1_Fie,Field Teams,PM_08,1,1,3,3,Notes on Records Management & Archival,,2024-07-24
+cycle_1,resp_2_Fin,Finance,PM_08,1,1,2,5,,,2024-07-21
+cycle_1,resp_3_Fie,Field Teams,PM_08,1,1,3,5,,,2024-07-28
+cycle_1,resp_4_Fie,Field Teams,PM_08,1,1,4,4,,,2024-07-26
+cycle_1,resp_5_Tec,Technical Leads,PM_08,1,1,3,4,,doc_PM_08_5.pdf,2024-07-27
+cycle_1,resp_6_Adm,Admin,PM_08,1,1,2,4,Notes on Records Management & Archival,doc_PM_08_6.pdf,2024-08-03
+cycle_1,resp_0_Fin,Finance,PM_09,2,4,2,5,,,2024-08-03
+cycle_1,resp_1_Adm,Admin,PM_09,1,5,1,5,,doc_PM_09_1.pdf,2024-08-08
+cycle_1,resp_2_Fie,Field Teams,PM_09,2,4,2,5,Notes on Vendor & Contractor Performance,,2024-07-21
+cycle_1,resp_3_Fin,Finance,PM_09,1,4,1,4,,doc_PM_09_3.pdf,2024-08-04
+cycle_1,resp_4_Pro,Program Office,PM_09,2,4,2,3,,,2024-07-26
+cycle_1,resp_0_Tec,Technical Leads,PM_10,2,2,3,5,,,2024-07-23
+cycle_1,resp_1_Tec,Technical Leads,PM_10,1,3,1,4,,,2024-07-15
+cycle_1,resp_2_Fin,Finance,PM_10,2,2,3,4,,,2024-07-27
+cycle_1,resp_0_Adm,Admin,PM_11,3,3,4,4,Notes on Organisational Consistency,,2024-07-26
+cycle_1,resp_1_Adm,Admin,PM_11,3,3,3,5,,,2024-07-19
+cycle_1,resp_2_Fie,Field Teams,PM_11,3,3,3,4,,doc_PM_11_2.pdf,2024-08-07
+cycle_1,resp_3_Fin,Finance,PM_11,3,3,3,4,,,2024-07-21
+cycle_1,resp_4_Fie,Field Teams,PM_11,2,2,2,4,,doc_PM_11_4.pdf,2024-07-13
+cycle_1,resp_0_Fin,Finance,EIM_01,1,1,2,5,,,2024-07-15
+cycle_1,resp_1_Fin,Finance,EIM_01,1,1,3,5,,doc_EIM_01_1.pdf,2024-07-15
+cycle_1,resp_2_Pro,Program Office,EIM_01,2,2,2,4,,doc_EIM_01_2.pdf,2024-08-04
+cycle_1,resp_3_Fin,Finance,EIM_01,1,1,2,5,,,2024-07-13
+cycle_1,resp_0_Tec,Technical Leads,EIM_02,2,4,2,4,,,2024-07-15
+cycle_1,resp_1_Adm,Admin,EIM_02,3,3,4,4,,,2024-07-24
+cycle_1,resp_2_Fin,Finance,EIM_02,2,3,2,5,,,2024-07-16
+cycle_1,resp_0_Adm,Admin,EIM_03,1,4,1,5,,doc_EIM_03_0.pdf,2024-07-22
+cycle_1,resp_1_Pro,Program Office,EIM_03,3,4,3,5,,doc_EIM_03_1.pdf,2024-08-07
+cycle_1,resp_2_Adm,Admin,EIM_03,1,5,1,5,Notes on Technology Transfer & Usability,,2024-07-31
+cycle_1,resp_3_Fie,Field Teams,EIM_03,1,4,1,5,,doc_EIM_03_3.pdf,2024-07-22
+cycle_1,resp_4_Fie,Field Teams,EIM_03,1,5,1,4,Notes on Technology Transfer & Usability,,2024-07-26
+cycle_1,resp_5_Pro,Program Office,EIM_03,1,4,1,3,Notes on Technology Transfer & Usability,doc_EIM_03_5.pdf,2024-08-10
+cycle_1,resp_6_Tec,Technical Leads,EIM_03,1,5,1,3,Notes on Technology Transfer & Usability,doc_EIM_03_6.pdf,2024-07-28
+cycle_1,resp_0_Adm,Admin,EIM_04,2,4,2,4,,,2024-08-05
+cycle_1,resp_1_Tec,Technical Leads,EIM_04,3,3,3,4,Notes on Implementation Tracking,,2024-07-16
+cycle_1,resp_2_Fin,Finance,EIM_04,3,3,3,4,Notes on Implementation Tracking,doc_EIM_04_2.pdf,2024-08-07
+cycle_1,resp_0_Pro,Program Office,EIM_05,2,2,5,4,Notes on Barrier Analysis,doc_EIM_05_0.pdf,2024-08-04
+cycle_1,resp_1_Fin,Finance,EIM_05,2,2,4,3,,,2024-07-29
+cycle_1,resp_2_Fie,Field Teams,EIM_05,2,2,4,5,,doc_EIM_05_2.pdf,2024-08-08
+cycle_1,resp_3_Pro,Program Office,EIM_05,2,2,5,5,,,2024-07-15
+cycle_1,resp_4_Fin,Finance,EIM_05,2,2,3,4,Notes on Barrier Analysis,,2024-07-18
+cycle_1,resp_5_Fie,Field Teams,EIM_05,2,2,5,5,Notes on Barrier Analysis,doc_EIM_05_5.pdf,2024-07-26
+cycle_1,resp_0_Fin,Finance,EIM_06,2,2,2,5,,,2024-08-09
+cycle_1,resp_1_Pro,Program Office,EIM_06,3,3,3,4,Notes on Reporting Quality & Standards,doc_EIM_06_1.pdf,2024-07-30
+cycle_1,resp_2_Adm,Admin,EIM_06,2,2,3,4,Notes on Reporting Quality & Standards,,2024-07-31
+cycle_1,resp_3_Pro,Program Office,EIM_06,2,2,5,3,Notes on Reporting Quality & Standards,,2024-08-08
+cycle_1,resp_4_Tec,Technical Leads,EIM_06,2,2,4,5,Notes on Reporting Quality & Standards,,2024-07-16
+cycle_1,resp_5_Pro,Program Office,EIM_06,2,2,4,4,,,2024-07-18
+cycle_1,resp_0_Fin,Finance,EIM_07,2,2,2,4,,,2024-08-11
+cycle_1,resp_1_Tec,Technical Leads,EIM_07,1,2,1,4,,,2024-07-14
+cycle_1,resp_2_Fie,Field Teams,EIM_07,2,2,3,4,,,2024-07-18
+cycle_1,resp_3_Adm,Admin,EIM_07,1,1,2,4,,doc_EIM_07_3.pdf,2024-07-21
+cycle_1,resp_4_Adm,Admin,EIM_07,1,2,1,4,Notes on Internal Communication of Findings,,2024-07-23
+cycle_1,resp_5_Adm,Admin,EIM_07,2,2,2,5,,,2024-08-08
+cycle_1,resp_0_Pro,Program Office,EIM_08,2,3,2,3,,,2024-07-14
+cycle_1,resp_1_Fie,Field Teams,EIM_08,3,4,3,4,,,2024-08-08
+cycle_1,resp_2_Pro,Program Office,EIM_08,2,3,2,4,,doc_EIM_08_2.pdf,2024-07-22
+cycle_1,resp_3_Tec,Technical Leads,EIM_08,2,3,2,4,,,2024-08-03
+cycle_1,resp_4_Pro,Program Office,EIM_08,2,3,2,4,,,2024-08-07
+cycle_1,resp_5_Tec,Technical Leads,EIM_08,3,3,4,5,,doc_EIM_08_5.pdf,2024-08-04
+cycle_1,resp_0_Adm,Admin,EIM_09,2,4,2,3,,doc_EIM_09_0.pdf,2024-07-31
+cycle_1,resp_1_Fie,Field Teams,EIM_09,2,2,4,4,,,2024-08-06
+cycle_1,resp_2_Adm,Admin,EIM_09,2,4,2,5,,,2024-07-16
+cycle_1,resp_3_Pro,Program Office,EIM_09,2,2,2,4,Notes on Post-Delivery Feedback Collection,,2024-07-18
+cycle_1,resp_4_Fie,Field Teams,EIM_09,2,3,2,5,Notes on Post-Delivery Feedback Collection,doc_EIM_09_4.pdf,2024-07-30
+cycle_1,resp_0_Pro,Program Office,EIM_10,2,2,4,4,,doc_EIM_10_0.pdf,2024-08-03
+cycle_1,resp_1_Fin,Finance,EIM_10,3,3,4,5,,doc_EIM_10_1.pdf,2024-08-10
+cycle_1,resp_2_Pro,Program Office,EIM_10,2,2,3,3,Notes on Strategic Alignment,doc_EIM_10_2.pdf,2024-08-04
+cycle_1,resp_3_Adm,Admin,EIM_10,2,3,2,4,Notes on Strategic Alignment,,2024-07-27
+cycle_1,resp_4_Pro,Program Office,EIM_10,2,2,4,4,,doc_EIM_10_4.pdf,2024-07-29
+cycle_1,resp_5_Fin,Finance,EIM_10,3,3,5,3,,,2024-07-29
+cycle_1,resp_6_Pro,Program Office,EIM_10,3,3,5,4,,,2024-08-01
+cycle_1,resp_0_Adm,Admin,EIM_11,1,2,1,4,,,2024-07-22
+cycle_1,resp_1_Adm,Admin,EIM_11,2,2,2,5,Notes on Evaluation Records Management,doc_EIM_11_1.pdf,2024-08-05
+cycle_1,resp_2_Fie,Field Teams,EIM_11,1,3,1,4,,doc_EIM_11_2.pdf,2024-07-19
+cycle_1,resp_3_Fin,Finance,EIM_11,2,2,2,4,,doc_EIM_11_3.pdf,2024-07-26
+cycle_1,resp_0_Pro,Program Office,EIM_12,2,2,4,4,,doc_EIM_12_0.pdf,2024-08-11
+cycle_1,resp_1_Fie,Field Teams,EIM_12,1,1,4,5,Notes on Long-Term Impact Assessment,,2024-07-24
+cycle_1,resp_2_Fie,Field Teams,EIM_12,2,2,5,5,Notes on Long-Term Impact Assessment,doc_EIM_12_2.pdf,2024-07-25
+cycle_1,resp_0_Adm,Admin,EIM_13,2,5,2,5,,,2024-07-18
+cycle_1,resp_1_Tec,Technical Leads,EIM_13,2,4,2,3,,doc_EIM_13_1.pdf,2024-07-27
+cycle_1,resp_2_Pro,Program Office,EIM_13,3,4,3,5,,,2024-07-20
+cycle_1,resp_3_Pro,Program Office,EIM_13,4,5,4,4,Notes on Evaluation Consistency & Improvement,doc_EIM_13_3.pdf,2024-07-27
+cycle_1,resp_0_Tec,Technical Leads,INV_01,3,3,3,3,Notes on Invoice Submission Requirements,,2024-08-08
+cycle_1,resp_1_Tec,Technical Leads,INV_01,3,3,3,3,,,2024-07-25
+cycle_1,resp_2_Fie,Field Teams,INV_01,3,3,3,5,,,2024-08-06
+cycle_1,resp_3_Adm,Admin,INV_01,2,3,2,4,,doc_INV_01_3.pdf,2024-08-10
+cycle_1,resp_4_Fie,Field Teams,INV_01,3,3,4,5,Notes on Invoice Submission Requirements,doc_INV_01_4.pdf,2024-07-27
+cycle_1,resp_5_Adm,Admin,INV_01,3,3,3,3,,,2024-07-28
+cycle_1,resp_6_Adm,Admin,INV_01,3,3,3,4,,,2024-08-08
+cycle_1,resp_0_Tec,Technical Leads,INV_02,2,2,2,3,Notes on Invoice Package Consistency,,2024-08-08
+cycle_1,resp_1_Fin,Finance,INV_02,2,3,2,4,,doc_INV_02_1.pdf,2024-08-03
+cycle_1,resp_2_Fin,Finance,INV_02,2,2,4,4,,,2024-08-10
+cycle_1,resp_3_Tec,Technical Leads,INV_02,4,4,5,5,,,2024-08-04
+cycle_1,resp_4_Fin,Finance,INV_02,2,2,4,4,,doc_INV_02_4.pdf,2024-08-02
+cycle_1,resp_5_Fin,Finance,INV_02,4,4,4,4,,doc_INV_02_5.pdf,2024-08-01
+cycle_1,resp_0_Tec,Technical Leads,INV_03,3,3,3,5,,doc_INV_03_0.pdf,2024-08-08
+cycle_1,resp_1_Fin,Finance,INV_03,2,2,3,4,,,2024-07-14
+cycle_1,resp_2_Tec,Technical Leads,INV_03,2,2,3,5,,doc_INV_03_2.pdf,2024-07-19
+cycle_1,resp_3_Pro,Program Office,INV_03,2,3,2,4,,,2024-07-31
+cycle_1,resp_4_Fin,Finance,INV_03,2,3,2,5,,,2024-07-16
+cycle_1,resp_0_Fie,Field Teams,INV_04,1,3,1,5,Notes on Approval Responsibilities,,2024-07-30
+cycle_1,resp_1_Fin,Finance,INV_04,2,3,2,4,,doc_INV_04_1.pdf,2024-08-03
+cycle_1,resp_2_Fin,Finance,INV_04,2,4,2,4,Notes on Approval Responsibilities,doc_INV_04_2.pdf,2024-07-24
+cycle_1,resp_3_Pro,Program Office,INV_04,1,4,1,5,,,2024-08-09
+cycle_1,resp_4_Tec,Technical Leads,INV_04,3,4,3,4,,,2024-07-29
+cycle_1,resp_5_Pro,Program Office,INV_04,3,4,3,4,,,2024-07-30
+cycle_1,resp_6_Pro,Program Office,INV_04,2,3,2,3,Notes on Approval Responsibilities,,2024-07-14
+cycle_1,resp_0_Adm,Admin,INV_05,3,4,3,3,Notes on Processing Timeliness,,2024-08-07
+cycle_1,resp_1_Adm,Admin,INV_05,3,3,4,5,,doc_INV_05_1.pdf,2024-07-29
+cycle_1,resp_2_Pro,Program Office,INV_05,3,3,5,5,,,2024-08-02
+cycle_1,resp_3_Pro,Program Office,INV_05,3,4,3,4,,,2024-08-05
+cycle_1,resp_0_Pro,Program Office,INV_06,4,4,4,5,Notes on Error Correction & Issue Handling,,2024-07-15
+cycle_1,resp_1_Fie,Field Teams,INV_06,3,3,4,4,Notes on Error Correction & Issue Handling,,2024-07-13
+cycle_1,resp_2_Tec,Technical Leads,INV_06,2,2,4,4,,doc_INV_06_2.pdf,2024-07-17
+cycle_1,resp_0_Tec,Technical Leads,INV_07,1,1,3,4,Notes on Communication During Review,doc_INV_07_0.pdf,2024-07-31
+cycle_1,resp_1_Tec,Technical Leads,INV_07,1,2,1,4,Notes on Communication During Review,,2024-07-23
+cycle_1,resp_2_Tec,Technical Leads,INV_07,2,2,2,3,,,2024-07-20
+cycle_1,resp_3_Tec,Technical Leads,INV_07,1,2,1,4,,,2024-07-29
+cycle_1,resp_4_Fin,Finance,INV_07,3,3,3,4,Notes on Communication During Review,,2024-08-10
+cycle_1,resp_0_Fin,Finance,INV_08,1,4,1,4,,,2024-07-16
+cycle_1,resp_1_Fin,Finance,INV_08,3,3,3,5,,,2024-08-03
+cycle_1,resp_2_Tec,Technical Leads,INV_08,4,4,4,5,,,2024-07-27
+cycle_1,resp_3_Fie,Field Teams,INV_08,2,2,2,3,Notes on Invoicing Records Management,doc_INV_08_3.pdf,2024-07-14
+cycle_1,resp_4_Adm,Admin,INV_08,4,4,4,5,,doc_INV_08_4.pdf,2024-07-21
+cycle_1,resp_5_Fin,Finance,INV_08,2,3,2,5,,doc_INV_08_5.pdf,2024-07-19
+cycle_1,resp_0_Fin,Finance,INV_09,2,2,3,4,,doc_INV_09_0.pdf,2024-07-25
+cycle_1,resp_1_Fin,Finance,INV_09,2,2,4,3,,doc_INV_09_1.pdf,2024-07-16
+cycle_1,resp_2_Tec,Technical Leads,INV_09,2,2,2,4,,,2024-08-03
+cycle_1,resp_0_Pro,Program Office,INV_10,1,1,3,5,,,2024-07-29
+cycle_1,resp_1_Pro,Program Office,INV_10,1,1,3,3,Notes on Administrative-Technical Coordination,,2024-08-04
+cycle_1,resp_2_Tec,Technical Leads,INV_10,1,1,2,5,,,2024-07-20
+cycle_1,resp_3_Adm,Admin,INV_10,1,1,3,4,,,2024-07-14
+cycle_1,resp_4_Fie,Field Teams,INV_10,1,1,2,4,,doc_INV_10_4.pdf,2024-08-07
+cycle_1,resp_5_Tec,Technical Leads,INV_10,3,3,3,4,,,2024-08-08
+cycle_1,resp_0_Fie,Field Teams,INV_11,1,1,4,4,,,2024-07-26
+cycle_1,resp_1_Adm,Admin,INV_11,1,1,5,3,,,2024-07-19
+cycle_1,resp_2_Adm,Admin,INV_11,1,1,5,4,,doc_INV_11_2.pdf,2024-07-26
+cycle_1,resp_3_Adm,Admin,INV_11,1,1,5,5,,doc_INV_11_3.pdf,2024-08-07
+cycle_1,resp_4_Fie,Field Teams,INV_11,1,1,3,5,,,2024-07-18
+cycle_1,resp_5_Fie,Field Teams,INV_11,2,2,5,5,Notes on Requirements Communication & Consistency,,2024-07-29
+cycle_1,resp_6_Pro,Program Office,INV_11,1,1,4,4,Notes on Requirements Communication & Consistency,doc_INV_11_6.pdf,2024-07-13
+cycle_1,resp_0_Fin,Finance,INV_12,3,3,3,5,,,2024-08-06
+cycle_1,resp_1_Pro,Program Office,INV_12,2,2,3,4,Notes on Invoicing Process Improvement,,2024-07-31
+cycle_1,resp_2_Tec,Technical Leads,INV_12,3,3,4,4,Notes on Invoicing Process Improvement,doc_INV_12_2.pdf,2024-07-16
+cycle_1,resp_3_Pro,Program Office,INV_12,3,3,4,5,,doc_INV_12_3.pdf,2024-08-06
+cycle_1,resp_4_Fie,Field Teams,INV_12,3,3,3,4,,doc_INV_12_4.pdf,2024-07-25
+cycle_1,resp_5_Adm,Admin,INV_12,3,3,4,5,,,2024-08-11
+cycle_2,resp_0_Tec,Technical Leads,PM_01,1,1,2,5,,,2025-01-17
+cycle_2,resp_1_Pro,Program Office,PM_01,2,2,3,3,,doc_PM_01_1.pdf,2025-01-11
+cycle_2,resp_2_Fie,Field Teams,PM_01,2,2,2,4,,doc_PM_01_2.pdf,2025-02-01
+cycle_2,resp_3_Tec,Technical Leads,PM_01,1,1,3,3,,,2025-02-04
+cycle_2,resp_4_Tec,Technical Leads,PM_01,1,1,1,4,,,2025-01-14
+cycle_2,resp_5_Adm,Admin,PM_01,1,1,1,4,,,2025-01-24
+cycle_2,resp_0_Fie,Field Teams,PM_02,2,2,3,3,Notes on Scope Definition & Change Control,doc_PM_02_0.pdf,2025-01-26
+cycle_2,resp_1_Tec,Technical Leads,PM_02,2,2,5,4,,,2025-01-10
+cycle_2,resp_2_Adm,Admin,PM_02,2,2,4,3,,doc_PM_02_2.pdf,2025-01-17
+cycle_2,resp_3_Fie,Field Teams,PM_02,3,3,4,4,Notes on Scope Definition & Change Control,,2025-01-09
+cycle_2,resp_0_Tec,Technical Leads,PM_03,1,3,1,4,,doc_PM_03_0.pdf,2025-01-16
+cycle_2,resp_1_Fie,Field Teams,PM_03,2,2,2,3,Notes on Roles & Responsibilities,doc_PM_03_1.pdf,2025-02-01
+cycle_2,resp_2_Fin,Finance,PM_03,2,3,2,4,,,2025-01-10
+cycle_2,resp_3_Tec,Technical Leads,PM_03,2,3,2,4,,,2025-01-12
+cycle_2,resp_4_Pro,Program Office,PM_03,2,4,2,4,Notes on Roles & Responsibilities,,2025-01-20
+cycle_2,resp_5_Tec,Technical Leads,PM_03,2,4,2,4,,,2025-01-20
+cycle_2,resp_6_Pro,Program Office,PM_03,3,4,3,3,,,2025-01-29
+cycle_2,resp_0_Tec,Technical Leads,PM_04,3,3,3,5,,,2025-01-25
+cycle_2,resp_1_Fie,Field Teams,PM_04,1,3,1,4,,,2025-01-30
+cycle_2,resp_2_Pro,Program Office,PM_04,2,2,2,4,Notes on Schedule & Milestone Planning,doc_PM_04_2.pdf,2025-01-30
+cycle_2,resp_3_Adm,Admin,PM_04,2,4,2,4,,,2025-02-03
+cycle_2,resp_0_Adm,Admin,PM_05,2,2,5,5,,,2025-01-27
+cycle_2,resp_1_Pro,Program Office,PM_05,2,2,3,5,Notes on Progress Reporting,doc_PM_05_1.pdf,2025-01-24
+cycle_2,resp_2_Fin,Finance,PM_05,2,2,4,5,,doc_PM_05_2.pdf,2025-01-28
+cycle_2,resp_3_Tec,Technical Leads,PM_05,2,2,4,4,,doc_PM_05_3.pdf,2025-01-24
+cycle_2,resp_4_Fie,Field Teams,PM_05,2,2,4,5,Notes on Progress Reporting,,2025-01-18
+cycle_2,resp_5_Tec,Technical Leads,PM_05,1,1,3,4,Notes on Progress Reporting,,2025-01-25
+cycle_2,resp_6_Tec,Technical Leads,PM_05,2,2,3,3,,doc_PM_05_6.pdf,2025-01-26
+cycle_2,resp_0_Pro,Program Office,PM_06,1,1,3,4,,,2025-01-16
+cycle_2,resp_1_Fie,Field Teams,PM_06,2,2,3,4,,,2025-01-17
+cycle_2,resp_2_Adm,Admin,PM_06,2,2,4,4,,,2025-01-23
+cycle_2,resp_3_Pro,Program Office,PM_06,1,1,3,3,,,2025-02-02
+cycle_2,resp_4_Tec,Technical Leads,PM_06,3,3,3,4,Notes on Technical Review & Approval,doc_PM_06_4.pdf,2025-02-05
+cycle_2,resp_5_Adm,Admin,PM_06,2,2,3,3,,,2025-01-27
+cycle_2,resp_0_Tec,Technical Leads,PM_07,3,4,3,5,,,2025-01-16
+cycle_2,resp_1_Fie,Field Teams,PM_07,2,5,2,5,,doc_PM_07_1.pdf,2025-01-16
+cycle_2,resp_2_Tec,Technical Leads,PM_07,2,4,2,4,,,2025-01-12
+cycle_2,resp_3_Fin,Finance,PM_07,2,4,2,5,Notes on Issue & Risk Management,,2025-01-29
+cycle_2,resp_4_Pro,Program Office,PM_07,3,5,3,4,,doc_PM_07_4.pdf,2025-02-01
+cycle_2,resp_0_Fie,Field Teams,PM_08,1,3,1,5,Notes on Records Management & Archival,doc_PM_08_0.pdf,2025-01-25
+cycle_2,resp_1_Pro,Program Office,PM_08,1,4,1,4,Notes on Records Management & Archival,,2025-01-09
+cycle_2,resp_2_Fie,Field Teams,PM_08,1,3,1,4,Notes on Records Management & Archival,,2025-01-21
+cycle_2,resp_3_Adm,Admin,PM_08,1,3,1,4,,doc_PM_08_3.pdf,2025-01-30
+cycle_2,resp_0_Adm,Admin,PM_09,2,2,3,5,,,2025-01-14
+cycle_2,resp_1_Pro,Program Office,PM_09,2,3,2,4,,,2025-02-07
+cycle_2,resp_2_Fie,Field Teams,PM_09,2,3,2,4,,,2025-01-21
+cycle_2,resp_3_Tec,Technical Leads,PM_09,2,2,3,4,Notes on Vendor & Contractor Performance,,2025-02-04
+cycle_2,resp_4_Adm,Admin,PM_09,3,4,3,4,,doc_PM_09_4.pdf,2025-01-29
+cycle_2,resp_5_Adm,Admin,PM_09,3,3,3,3,,,2025-01-15
+cycle_2,resp_0_Pro,Program Office,PM_10,2,2,4,4,,,2025-01-20
+cycle_2,resp_1_Fin,Finance,PM_10,3,3,5,4,,,2025-01-19
+cycle_2,resp_2_Fie,Field Teams,PM_10,4,4,5,3,Notes on Project Closure & Lessons Learned,,2025-01-29
+cycle_2,resp_3_Adm,Admin,PM_10,3,3,5,5,,doc_PM_10_3.pdf,2025-01-16
+cycle_2,resp_4_Tec,Technical Leads,PM_10,2,2,5,5,,doc_PM_10_4.pdf,2025-01-21
+cycle_2,resp_0_Pro,Program Office,PM_11,1,3,1,4,,,2025-01-31
+cycle_2,resp_1_Pro,Program Office,PM_11,2,2,2,3,,doc_PM_11_1.pdf,2025-01-13
+cycle_2,resp_2_Tec,Technical Leads,PM_11,2,4,2,5,Notes on Organisational Consistency,,2025-02-02
+cycle_2,resp_3_Fin,Finance,PM_11,1,4,1,3,,doc_PM_11_3.pdf,2025-01-09
+cycle_2,resp_4_Pro,Program Office,PM_11,1,4,1,4,,doc_PM_11_4.pdf,2025-01-14
+cycle_2,resp_5_Fin,Finance,PM_11,2,3,2,3,,,2025-01-18
+cycle_2,resp_0_Pro,Program Office,EIM_01,3,4,3,3,,,2025-01-12
+cycle_2,resp_1_Adm,Admin,EIM_01,1,4,1,3,,doc_EIM_01_1.pdf,2025-01-31
+cycle_2,resp_2_Fin,Finance,EIM_01,2,4,2,5,Notes on Outcome Definition,doc_EIM_01_2.pdf,2025-01-12
+cycle_2,resp_3_Pro,Program Office,EIM_01,1,5,1,4,,,2025-01-13
+cycle_2,resp_4_Pro,Program Office,EIM_01,2,3,2,4,,doc_EIM_01_4.pdf,2025-01-26
+cycle_2,resp_5_Pro,Program Office,EIM_01,2,4,2,4,,,2025-01-25
+cycle_2,resp_6_Pro,Program Office,EIM_01,2,4,2,5,,,2025-01-11
+cycle_2,resp_0_Tec,Technical Leads,EIM_02,2,5,2,5,Notes on Research Usefulness Evaluation,doc_EIM_02_0.pdf,2025-01-30
+cycle_2,resp_1_Pro,Program Office,EIM_02,4,5,4,4,Notes on Research Usefulness Evaluation,doc_EIM_02_1.pdf,2025-01-24
+cycle_2,resp_2_Tec,Technical Leads,EIM_02,4,5,4,4,Notes on Research Usefulness Evaluation,,2025-01-20
+cycle_2,resp_3_Fin,Finance,EIM_02,4,5,4,5,,,2025-01-31
+cycle_2,resp_4_Fin,Finance,EIM_02,4,4,4,4,,,2025-02-04
+cycle_2,resp_0_Fie,Field Teams,EIM_03,3,3,4,4,,,2025-01-20
+cycle_2,resp_1_Pro,Program Office,EIM_03,3,3,5,4,,,2025-02-01
+cycle_2,resp_2_Fie,Field Teams,EIM_03,3,3,3,4,,doc_EIM_03_2.pdf,2025-01-13
+cycle_2,resp_0_Fie,Field Teams,EIM_04,3,3,3,5,,,2025-01-30
+cycle_2,resp_1_Tec,Technical Leads,EIM_04,2,3,2,5,,,2025-01-09
+cycle_2,resp_2_Adm,Admin,EIM_04,1,1,3,3,,,2025-02-04
+cycle_2,resp_3_Tec,Technical Leads,EIM_04,2,3,2,3,,,2025-01-13
+cycle_2,resp_4_Tec,Technical Leads,EIM_04,3,4,3,4,,doc_EIM_04_4.pdf,2025-01-22
+cycle_2,resp_5_Fin,Finance,EIM_04,2,3,2,4,,doc_EIM_04_5.pdf,2025-01-29
+cycle_2,resp_0_Fin,Finance,EIM_05,3,3,5,4,,,2025-01-17
+cycle_2,resp_1_Tec,Technical Leads,EIM_05,3,3,3,4,Notes on Barrier Analysis,,2025-02-03
+cycle_2,resp_2_Fin,Finance,EIM_05,3,3,4,3,,,2025-01-10
+cycle_2,resp_0_Pro,Program Office,EIM_06,1,1,2,5,,doc_EIM_06_0.pdf,2025-01-11
+cycle_2,resp_1_Pro,Program Office,EIM_06,2,2,2,4,Notes on Reporting Quality & Standards,,2025-01-10
+cycle_2,resp_2_Fie,Field Teams,EIM_06,3,3,3,3,,doc_EIM_06_2.pdf,2025-01-16
+cycle_2,resp_3_Tec,Technical Leads,EIM_06,1,2,1,5,,doc_EIM_06_3.pdf,2025-01-24
+cycle_2,resp_4_Fie,Field Teams,EIM_06,1,1,2,4,,,2025-01-21
+cycle_2,resp_5_Tec,Technical Leads,EIM_06,1,1,2,4,,,2025-02-02
+cycle_2,resp_0_Adm,Admin,EIM_07,3,5,3,4,,doc_EIM_07_0.pdf,2025-01-15
+cycle_2,resp_1_Adm,Admin,EIM_07,1,4,1,4,,,2025-01-14
+cycle_2,resp_2_Adm,Admin,EIM_07,2,3,2,4,,,2025-01-24
+cycle_2,resp_0_Fie,Field Teams,EIM_08,1,1,3,3,,,2025-01-09
+cycle_2,resp_1_Adm,Admin,EIM_08,3,3,3,4,,doc_EIM_08_1.pdf,2025-01-23
+cycle_2,resp_2_Tec,Technical Leads,EIM_08,2,2,2,4,,doc_EIM_08_2.pdf,2025-01-10
+cycle_2,resp_3_Adm,Admin,EIM_08,2,2,4,5,Notes on Stakeholder Involvement in Evaluation,,2025-01-23
+cycle_2,resp_4_Fie,Field Teams,EIM_08,2,3,2,5,,,2025-01-29
+cycle_2,resp_5_Fie,Field Teams,EIM_08,2,2,3,3,,doc_EIM_08_5.pdf,2025-02-06
+cycle_2,resp_6_Pro,Program Office,EIM_08,2,2,2,4,,doc_EIM_08_6.pdf,2025-01-16
+cycle_2,resp_0_Pro,Program Office,EIM_09,3,3,3,3,,doc_EIM_09_0.pdf,2025-01-30
+cycle_2,resp_1_Adm,Admin,EIM_09,1,3,1,5,Notes on Post-Delivery Feedback Collection,,2025-01-16
+cycle_2,resp_2_Tec,Technical Leads,EIM_09,2,3,2,5,,doc_EIM_09_2.pdf,2025-01-14
+cycle_2,resp_3_Fie,Field Teams,EIM_09,2,3,2,4,Notes on Post-Delivery Feedback Collection,,2025-01-30
+cycle_2,resp_4_Adm,Admin,EIM_09,2,2,3,4,,,2025-01-23
+cycle_2,resp_5_Tec,Technical Leads,EIM_09,2,4,2,3,,,2025-02-07
+cycle_2,resp_0_Fin,Finance,EIM_10,2,2,2,4,,doc_EIM_10_0.pdf,2025-01-19
+cycle_2,resp_1_Fin,Finance,EIM_10,3,3,3,3,Notes on Strategic Alignment,doc_EIM_10_1.pdf,2025-01-27
+cycle_2,resp_2_Adm,Admin,EIM_10,2,3,2,5,Notes on Strategic Alignment,,2025-01-27
+cycle_2,resp_3_Fie,Field Teams,EIM_10,2,3,2,5,Notes on Strategic Alignment,doc_EIM_10_3.pdf,2025-02-03
+cycle_2,resp_0_Fie,Field Teams,EIM_11,3,3,4,5,Notes on Evaluation Records Management,,2025-01-30
+cycle_2,resp_1_Pro,Program Office,EIM_11,2,2,3,4,Notes on Evaluation Records Management,,2025-02-01
+cycle_2,resp_2_Tec,Technical Leads,EIM_11,2,2,4,5,,,2025-01-23
+cycle_2,resp_3_Fin,Finance,EIM_11,2,2,2,3,,,2025-01-14
+cycle_2,resp_4_Fie,Field Teams,EIM_11,2,4,2,3,Notes on Evaluation Records Management,,2025-01-18
+cycle_2,resp_5_Tec,Technical Leads,EIM_11,2,2,3,4,Notes on Evaluation Records Management,,2025-01-30
+cycle_2,resp_6_Fin,Finance,EIM_11,2,2,3,4,,,2025-01-12
+cycle_2,resp_0_Fin,Finance,EIM_12,2,3,2,4,,,2025-01-31
+cycle_2,resp_1_Pro,Program Office,EIM_12,3,3,3,4,,,2025-01-30
+cycle_2,resp_2_Fin,Finance,EIM_12,3,3,3,4,Notes on Long-Term Impact Assessment,doc_EIM_12_2.pdf,2025-01-24
+cycle_2,resp_3_Tec,Technical Leads,EIM_12,2,3,2,4,Notes on Long-Term Impact Assessment,,2025-02-01
+cycle_2,resp_4_Fie,Field Teams,EIM_12,1,3,1,3,,,2025-01-21
+cycle_2,resp_5_Tec,Technical Leads,EIM_12,1,3,1,5,,doc_EIM_12_5.pdf,2025-01-17
+cycle_2,resp_6_Pro,Program Office,EIM_12,3,3,3,5,,,2025-02-02
+cycle_2,resp_0_Fin,Finance,EIM_13,2,2,2,5,,doc_EIM_13_0.pdf,2025-01-30
+cycle_2,resp_1_Fie,Field Teams,EIM_13,1,1,3,4,,doc_EIM_13_1.pdf,2025-01-17
+cycle_2,resp_2_Pro,Program Office,EIM_13,3,3,4,5,,doc_EIM_13_2.pdf,2025-01-17
+cycle_2,resp_3_Adm,Admin,EIM_13,2,2,2,5,,,2025-01-27
+cycle_2,resp_4_Fie,Field Teams,EIM_13,2,3,2,5,,doc_EIM_13_4.pdf,2025-01-15
+cycle_2,resp_5_Pro,Program Office,EIM_13,2,2,2,4,,doc_EIM_13_5.pdf,2025-02-04
+cycle_2,resp_0_Fin,Finance,INV_01,1,4,1,5,,,2025-01-19
+cycle_2,resp_1_Tec,Technical Leads,INV_01,1,4,1,4,,doc_INV_01_1.pdf,2025-01-09
+cycle_2,resp_2_Adm,Admin,INV_01,3,3,3,5,Notes on Invoice Submission Requirements,doc_INV_01_2.pdf,2025-01-31
+cycle_2,resp_3_Adm,Admin,INV_01,1,3,1,4,,,2025-02-02
+cycle_2,resp_4_Fie,Field Teams,INV_01,1,3,1,5,Notes on Invoice Submission Requirements,,2025-02-04
+cycle_2,resp_5_Fin,Finance,INV_01,2,3,2,5,Notes on Invoice Submission Requirements,doc_INV_01_5.pdf,2025-01-19
+cycle_2,resp_6_Tec,Technical Leads,INV_01,2,3,2,4,,,2025-01-30
+cycle_2,resp_0_Pro,Program Office,INV_02,1,3,1,5,Notes on Invoice Package Consistency,,2025-01-29
+cycle_2,resp_1_Tec,Technical Leads,INV_02,1,3,1,5,Notes on Invoice Package Consistency,,2025-01-21
+cycle_2,resp_2_Adm,Admin,INV_02,1,4,1,4,Notes on Invoice Package Consistency,doc_INV_02_2.pdf,2025-01-10
+cycle_2,resp_3_Adm,Admin,INV_02,3,5,3,4,Notes on Invoice Package Consistency,doc_INV_02_3.pdf,2025-01-09
+cycle_2,resp_0_Fin,Finance,INV_03,2,3,2,4,,,2025-02-06
+cycle_2,resp_1_Adm,Admin,INV_03,3,4,3,4,,,2025-02-06
+cycle_2,resp_2_Pro,Program Office,INV_03,1,3,1,4,Notes on Invoice Review Process,doc_INV_03_2.pdf,2025-01-26
+cycle_2,resp_3_Adm,Admin,INV_03,3,4,3,4,,,2025-01-20
+cycle_2,resp_4_Pro,Program Office,INV_03,2,3,2,5,Notes on Invoice Review Process,,2025-01-29
+cycle_2,resp_5_Adm,Admin,INV_03,1,3,1,4,,,2025-01-23
+cycle_2,resp_0_Fin,Finance,INV_04,2,2,3,4,,,2025-02-04
+cycle_2,resp_1_Pro,Program Office,INV_04,2,2,4,4,,doc_INV_04_1.pdf,2025-01-12
+cycle_2,resp_2_Tec,Technical Leads,INV_04,1,1,3,4,Notes on Approval Responsibilities,doc_INV_04_2.pdf,2025-01-11
+cycle_2,resp_3_Fie,Field Teams,INV_04,1,1,3,3,Notes on Approval Responsibilities,doc_INV_04_3.pdf,2025-01-30
+cycle_2,resp_4_Tec,Technical Leads,INV_04,1,1,3,4,,,2025-01-19
+cycle_2,resp_5_Adm,Admin,INV_04,1,1,3,4,,,2025-01-27
+cycle_2,resp_0_Adm,Admin,INV_05,3,3,4,5,Notes on Processing Timeliness,,2025-01-26
+cycle_2,resp_1_Fie,Field Teams,INV_05,3,4,3,5,,doc_INV_05_1.pdf,2025-01-20
+cycle_2,resp_2_Tec,Technical Leads,INV_05,3,3,4,5,Notes on Processing Timeliness,doc_INV_05_2.pdf,2025-01-30
+cycle_2,resp_3_Adm,Admin,INV_05,3,3,4,4,,,2025-01-16
+cycle_2,resp_4_Pro,Program Office,INV_05,3,3,3,4,Notes on Processing Timeliness,,2025-01-10
+cycle_2,resp_5_Tec,Technical Leads,INV_05,3,3,3,5,Notes on Processing Timeliness,doc_INV_05_5.pdf,2025-01-13
+cycle_2,resp_6_Pro,Program Office,INV_05,3,3,3,5,,,2025-01-29
+cycle_2,resp_0_Fin,Finance,INV_06,3,4,3,5,,doc_INV_06_0.pdf,2025-02-07
+cycle_2,resp_1_Tec,Technical Leads,INV_06,4,5,4,3,Notes on Error Correction & Issue Handling,,2025-01-27
+cycle_2,resp_2_Adm,Admin,INV_06,2,5,2,5,,,2025-01-14
+cycle_2,resp_3_Pro,Program Office,INV_06,3,5,3,4,,,2025-02-03
+cycle_2,resp_4_Tec,Technical Leads,INV_06,4,4,5,5,Notes on Error Correction & Issue Handling,,2025-01-14
+cycle_2,resp_0_Adm,Admin,INV_07,4,5,4,5,,,2025-01-29
+cycle_2,resp_1_Tec,Technical Leads,INV_07,4,4,5,4,,,2025-02-01
+cycle_2,resp_2_Fie,Field Teams,INV_07,3,3,3,4,,,2025-01-26
+cycle_2,resp_3_Fin,Finance,INV_07,3,4,3,5,Notes on Communication During Review,doc_INV_07_3.pdf,2025-02-03
+cycle_2,resp_4_Tec,Technical Leads,INV_07,3,3,4,5,,doc_INV_07_4.pdf,2025-02-01
+cycle_2,resp_0_Pro,Program Office,INV_08,3,3,4,5,Notes on Invoicing Records Management,,2025-01-21
+cycle_2,resp_1_Pro,Program Office,INV_08,2,5,2,5,,doc_INV_08_1.pdf,2025-02-05
+cycle_2,resp_2_Fie,Field Teams,INV_08,2,5,2,3,,,2025-01-21
+cycle_2,resp_3_Pro,Program Office,INV_08,3,5,3,3,,doc_INV_08_3.pdf,2025-01-10
+cycle_2,resp_4_Pro,Program Office,INV_08,4,5,4,4,,,2025-01-14
+cycle_2,resp_0_Fie,Field Teams,INV_09,3,3,4,5,Notes on Recurring Issue Identification,doc_INV_09_0.pdf,2025-01-16
+cycle_2,resp_1_Fin,Finance,INV_09,2,2,4,5,,,2025-02-04
+cycle_2,resp_2_Adm,Admin,INV_09,2,2,3,5,,,2025-01-31
+cycle_2,resp_0_Adm,Admin,INV_10,2,2,2,4,Notes on Administrative-Technical Coordination,,2025-02-02
+cycle_2,resp_1_Tec,Technical Leads,INV_10,3,3,3,4,,,2025-01-25
+cycle_2,resp_2_Fie,Field Teams,INV_10,2,2,3,4,,doc_INV_10_2.pdf,2025-01-21
+cycle_2,resp_0_Pro,Program Office,INV_11,3,4,3,4,,doc_INV_11_0.pdf,2025-02-01
+cycle_2,resp_1_Tec,Technical Leads,INV_11,3,5,3,5,Notes on Requirements Communication & Consistency,doc_INV_11_1.pdf,2025-01-22
+cycle_2,resp_2_Fin,Finance,INV_11,3,3,3,3,,,2025-01-20
+cycle_2,resp_3_Adm,Admin,INV_11,3,4,3,4,Notes on Requirements Communication & Consistency,,2025-01-17
+cycle_2,resp_4_Pro,Program Office,INV_11,3,4,3,4,,,2025-02-03
+cycle_2,resp_0_Pro,Program Office,INV_12,1,2,1,5,,,2025-01-27
+cycle_2,resp_1_Fie,Field Teams,INV_12,1,2,1,4,,doc_INV_12_1.pdf,2025-01-30
+cycle_2,resp_2_Fin,Finance,INV_12,1,1,2,3,,,2025-01-27
+cycle_2,resp_3_Tec,Technical Leads,INV_12,1,3,1,4,Notes on Invoicing Process Improvement,,2025-01-15
+cycle_2,resp_4_Pro,Program Office,INV_12,1,3,1,5,,,2025-01-26

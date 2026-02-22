@@ -1,0 +1,209 @@
+# RMM Dashboard Configuration
+# Aligned with Appendix A: RMM Framework and Assessment Logic
+
+# ── Scoring Parameters (Appendix A7) ─────────────────────────────────────────
+SCORING:
+  MIN_RESPONSES: 3           # Low participation penalty threshold
+  MAX_DISPERSION: 1.5        # High disagreement penalty threshold (IQR)
+  MIN_EVIDENCE_RATE: 0.5     # Missing evidence penalty threshold
+
+  # Quality penalties (subtracted from 1-5 maturity index)
+  LOW_RESPONSE_PENALTY: 0.5
+  HIGH_DISPERSION_PENALTY: 0.5
+  LOW_EVIDENCE_PENALTY: 0.5
+
+  # Domain weights for overall score (Appendix A7 – to be refined with TDOT stakeholder input)
+  AREA_WEIGHTS:
+    "Project Management": 1.0
+    "Evaluation & Impact Measurement": 1.0
+    "Invoicing Process": 1.0
+
+# ── Dual-Dimension Assessment (Appendix A2-A5) ───────────────────────────────
+DUAL_DIMENSIONS:
+  ENABLED: true
+  PROFICIENCY_LABEL: "Proficiency"     # How well the practice is performed
+  COVERAGE_LABEL: "Coverage"           # How widely the practice is adopted
+  # Combined maturity = min(proficiency, coverage) per Appendix A5
+  COMBINATION_METHOD: "minimum"
+
+# ── Maturity Level Definitions (Appendix A6) ──────────────────────────────────
+MATURITY_LEVELS:
+  1:
+    name: "Initial"
+    description: "Inconsistent practices and limited adoption"
+    proficiency_desc: "Practices are ad hoc and dependent on individuals"
+    coverage_desc: "Isolated or individual use only"
+    color: "#e74c3c"
+  2:
+    name: "Development"
+    description: "Emerging structure with partial organisational use"
+    proficiency_desc: "Partial structure exists but remains inconsistent"
+    coverage_desc: "Limited adoption among few groups"
+    color: "#f39c12"
+  3:
+    name: "Defined"
+    description: "Standardised practices used across multiple groups"
+    proficiency_desc: "Standardised and documented processes are established"
+    coverage_desc: "Implementation across several groups"
+    color: "#f1c40f"
+  4:
+    name: "Managed"
+    description: "Performance-driven processes widely adopted"
+    proficiency_desc: "Performance is measured and used for decision-making"
+    coverage_desc: "Broad organisational adoption"
+    color: "#3498db"
+  5:
+    name: "Optimising"
+    description: "Organisation-wide continuous improvement and learning"
+    proficiency_desc: "Continuous improvement mechanisms are embedded"
+    coverage_desc: "Organisation-wide, institutionalised use"
+    color: "#2ecc71"
+
+# ── Assessment Domains (Appendix A1) ─────────────────────────────────────────
+# Area names match Appendix A1 domain labels exactly
+FOCUS_AREAS:
+  - name: "Project Management"
+    abbreviation: "PM"
+    description: "Project solicitation, scope, scheduling, monitoring, reviews, closure and lessons learned"
+    questionnaire_block: "Block 1 (Q7-Q21)"
+    components:
+      - "Project Solicitation & Prioritization"
+      - "Scope Definition & Change Control"
+      - "Roles & Responsibilities"
+      - "Schedule & Milestone Planning"
+      - "Progress Reporting"
+      - "Technical Review & Approval"
+      - "Issue & Risk Management"
+      - "Records Management & Archival"
+      - "Vendor & Contractor Performance"
+      - "Project Closure & Lessons Learned"
+      - "Organisational Consistency"
+
+  - name: "Evaluation & Impact Measurement"
+    abbreviation: "EIM"
+    description: "Research documentation quality, technology transfer, dissemination, implementation tracking, lessons learned integration"
+    questionnaire_block: "Block 2 (Q22-Q35)"
+    components:
+      - "Outcome Definition"
+      - "Research Usefulness Evaluation"
+      - "Technology Transfer & Usability"
+      - "Implementation Tracking"
+      - "Barrier Analysis"
+      - "Reporting Quality & Standards"
+      - "Internal Communication of Findings"
+      - "Stakeholder Involvement in Evaluation"
+      - "Post-Delivery Feedback Collection"
+      - "Strategic Alignment"
+      - "Evaluation Records Management"
+      - "Long-Term Impact Assessment"
+      - "Evaluation Consistency & Improvement"
+
+  - name: "Invoicing Process"
+    abbreviation: "INV"
+    description: "Invoice submission, validation, approval procedures, processing timelines, documentation completeness"
+    questionnaire_block: "Block 3 (Q36-Q48)"
+    components:
+      - "Invoice Submission Requirements"
+      - "Invoice Package Consistency"
+      - "Invoice Review Process"
+      - "Approval Responsibilities"
+      - "Processing Timeliness"
+      - "Error Correction & Issue Handling"
+      - "Communication During Review"
+      - "Invoicing Records Management"
+      - "Recurring Issue Identification"
+      - "Administrative-Technical Coordination"
+      - "Requirements Communication & Consistency"
+      - "Invoicing Process Improvement"
+
+# ── Organisational Groups (Appendix A8) ───────────────────────────────────────
+ORG_GROUPS:
+  - "Program Office"
+  - "Admin"
+  - "Technical Leads"
+  - "Finance"
+  - "Field Teams"
+
+# ── Reporting Levels (Appendix A8) ────────────────────────────────────────────
+REPORTING_LEVELS:
+  leadership:       "High-level maturity summaries supporting strategic planning"
+  program_mgmt:     "Component-level insights guiding improvement initiatives"
+  operational:      "Detailed findings identifying specific process gaps"
+
+# ── Display Settings ──────────────────────────────────────────────────────────
+DISPLAY:
+  LEVEL_COLORS:
+    1: "#e74c3c"
+    2: "#f39c12"
+    3: "#f1c40f"
+    4: "#3498db"
+    5: "#2ecc71"
+
+  AREA_COLORS:
+    "Project Management":             "#0033A0"   # TDOT Blue
+    "Evaluation & Impact Measurement": "#E31837"  # TDOT Red
+    "Invoicing Process":              "#708090"   # Slate Gray
+
+  RADAR_CHART_HEIGHT: 500
+  HEATMAP_HEIGHT: 400
+  TREND_CHART_HEIGHT: 350
+  DEFAULT_PAGE_SIZE: 20
+
+# ── Data Quality Thresholds ───────────────────────────────────────────────────
+DATA_QUALITY:
+  LOW_COVERAGE_THRESHOLD: 3
+  HIGH_COVERAGE_THRESHOLD: 5
+  LOW_DISAGREEMENT: 1.0
+  HIGH_DISAGREEMENT: 2.0
+  GOOD_EVIDENCE_THRESHOLD: 0.5
+  MIN_CONFIDENCE_LEVEL: 3.0
+
+# ── Improvement Backlog (Appendix B2) ────────────────────────────────────────
+BACKLOG:
+  IMPACT_WEIGHT: 1.0
+  GAP_WEIGHT: 1.0
+  EFFORT_WEIGHT: 1.0
+  RESPONSE_WEIGHT: 0.33
+  DISPERSION_WEIGHT: 0.33
+  EVIDENCE_WEIGHT: 0.34
+  TOP_GAPS_DISPLAY: 10
+  MAX_BACKLOG_ITEMS: 100
+
+# ── Timeframe Definitions (Appendix B2 action tables) ────────────────────────
+TIMEFRAMES:
+  short:
+    label: "Short-term"
+    duration: "< 3 months"
+    color: "#2ecc71"
+  medium:
+    label: "Medium-term"
+    duration: "3-9 months"
+    color: "#f39c12"
+  long:
+    label: "Long-term"
+    duration: "3-12 months"
+    color: "#e74c3c"
+
+# ── Advanced Features ─────────────────────────────────────────────────────────
+ADVANCED:
+  ENABLE_CONFIDENCE_FILTERING: true
+  ENABLE_EVIDENCE_FILTERING: true
+  ENABLE_TREND_ANALYSIS: true
+  ENABLE_DATA_QUALITY_CHECKS: true
+  ENABLE_DUAL_DIMENSIONS: true
+  MIN_CYCLES_FOR_TRENDS: 2
+  CACHE_TTL_SECONDS: 3600
+  USE_PLOTLY: true
+
+# ── Export Settings ───────────────────────────────────────────────────────────
+EXPORT:
+  PDF_PAGE_SIZE: "Letter"
+  CSV_DELIMITER: ","
+  INCLUDE_METADATA: true
+  EXECUTIVE_SUMMARY:
+    - "Overall Maturity Score"
+    - "Proficiency vs Coverage Analysis"
+    - "Domain Breakdown (PM / EIM / INV)"
+    - "Top 10 Priority Gaps"
+    - "Participation Statistics"
+    - "Data Quality Assessment"

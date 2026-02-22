@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>RMM Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.53.0/build/stlite.css" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.53.0/build/stlite.js"></script>
+  <script>
+    stlite.mount({
+      requirements: ["streamlit", "pandas", "plotly==5.18.0", "reportlab", "pyyaml"],
+      entrypoint: "app.py",
+      files: {
+        "app.py": { url: "app.py" },
+        "config.yaml": { url: "config.yaml" },
+        "validate_data.py": { url: "validate_data.py" },
+        "src/__init__.py": { url: "src/__init__.py" },
+        "src/utils.py": { url: "src/utils.py" },
+        "src/scoring.py": { url: "src/scoring.py" },
+        "src/visuals.py": { url: "src/visuals.py" },
+        "src/pdf_gen.py": { url: "src/pdf_gen.py" },
+        "src/generate_dummy_data.py": { url: "src/generate_dummy_data.py" },
+        "data/factors.csv": { url: "data/factors.csv" },
+        "data/responses.csv": { url: "data/responses.csv" },
+        "data/actions.csv": { url: "data/actions.csv" },
+        "pages/__init__.py": { url: "pages/__init__.py" },
+        "pages/1_Trends.py": { url: "pages/1_Trends.py" },
+        "pages/2_Data_Quality.py": { url: "pages/2_Data_Quality.py" },
+      },
+    }, document.getElementById("root"));
+  </script>
+</body>
+
+</html>
