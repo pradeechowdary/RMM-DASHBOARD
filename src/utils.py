@@ -141,44 +141,111 @@ def apply_custom_css():
     st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
     :root {
         --tdot-blue:   #0033A0;
         --tdot-red:    #E31837;
         --bg-color:    #F8F9FA;
         --card-bg:     #FFFFFF;
-        --text-color:  #333333;
-        --text-muted:  #666666;
+        --text-color:  #1f2937;
+        --text-muted:  #6b7280;
         --border-color:#E0E0E0;
     }
-    html, body{ font-family: 'Inter', sans-serif; color: var(--text-color); background-color: var(--bg-color); }
-    .stApp { background-color: var(--bg-color); background-image: none; }
+
+    /* Base layout */
+    html, body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    .stApp {
+        background-color: var(--bg-color);
+    }
+
+    /* Header */
     .main-header {
-        color: var(--tdot-blue); font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;
-        text-transform: uppercase; border-bottom: 4px solid var(--tdot-red);
-        padding-bottom: 10px; display: inline-block;
+        color: var(--tdot-blue);
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        border-bottom: 4px solid var(--tdot-red);
+        padding-bottom: 10px;
+        display: inline-block;
     }
-    .sub-header { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 2rem; font-weight: 400; }
-    hr { margin-top: 1rem; margin-bottom: 1rem; border: 0; border-top: 1px solid var(--border-color); }
+
+    .sub-header {
+        font-size: 1.1rem;
+        color: var(--text-muted);
+        margin-bottom: 2rem;
+        font-weight: 400;
+    }
+
+    /* Metrics */
     div[data-testid="stMetric"] {
-        background: var(--card-bg); border: 1px solid var(--border-color);
-        padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
-    div[data-testid="stMetricValue"] { font-size: 1.8rem !important; font-weight: 700; color: var(--tdot-blue); }
-    div[data-testid="stMetricLabel"] { font-size: 0.9rem !important; color: var(--text-muted); font-weight: 600; }
-    .stTabs [data-baseweb="tab-list"] { gap: 20px; border-bottom: 2px solid var(--border-color); }
-    .stTabs [data-baseweb="tab"] { height: 50px; background-color: transparent; border: none; color: var(--text-muted); font-weight: 600; padding: 0 20px; }
-    .stTabs [aria-selected="true"] { color: var(--tdot-blue); border-bottom: 3px solid var(--tdot-blue); }
-    div[data-testid="stDataFrame"] { border: 1px solid var(--border-color); border-radius: 4px; background-color: var(--card-bg); }
-    section[data-testid="stSidebar"] { background-color: #FFFFFF; border-right: 1px solid var(--border-color); }
-    h1, h2, h3 { color: var(--tdot-blue); }
-    .dimension-badge {
-        display: inline-block; padding: 4px 10px; border-radius: 12px;
-        font-size: 0.8rem; font-weight: 600; margin: 2px;
+
+    div[data-testid="stMetricValue"] {
+        font-size: 1.8rem !important;
+        font-weight: 700;
+        color: var(--tdot-blue);
     }
-    .proficiency-badge { background-color: #e8f0fe; color: #0033A0; }
-    .coverage-badge    { background-color: #fce8e8; color: #E31837; }
-    section[data-testid="stSidebar"] * {
-    opacity: 1 !important;
+
+    div[data-testid="stMetricLabel"] {
+        font-size: 0.9rem !important;
+        color: var(--text-muted);
+        font-weight: 600;
     }
+
+    /* Tabs */
+    .stTabs [data-baseweb="tab"] {
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        color: var(--text-muted);
+        font-weight: 600;
+    }
+
+    .stTabs [aria-selected="true"] {
+        color: var(--tdot-blue);
+        border-bottom: 3px solid var(--tdot-blue);
+    }
+
+    /* Sidebar */
+    section[data-testid="stSidebar"] {
+        background-color: #FFFFFF;
+        border-right: 1px solid var(--border-color);
+    }
+
+    /* FIX: Sidebar navigation text visibility */
+    [data-testid="stSidebarNav"] button {
+        color: #1f2937 !important;
+        font-weight: 500 !important;
+        opacity: 1 !important;
+    }
+
+    [data-testid="stSidebarNav"] button:hover {
+        background-color: #f1f5f9 !important;
+        color: #000000 !important;
+    }
+
+    /* Dataframe */
+    div[data-testid="stDataFrame"] {
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        background-color: var(--card-bg);
+    }
+
+    h1, h2, h3 {
+        color: var(--tdot-blue);
+    }
+
 </style>
 """, unsafe_allow_html=True)
+
